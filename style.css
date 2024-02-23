@@ -138,6 +138,10 @@ word-spacing: .1rem;
 .card-box{
     box-shadow: 0px 0px 15px -9px black;
 }
+.card-box img{
+    width: 100%;
+    height: 50%;
+}
 /*  Skilss content */
 .skills-content{
     display: flex;
@@ -145,7 +149,11 @@ word-spacing: .1rem;
     width: 100%;
     height: 100vh;
 }
-@media (max-width: 768px) {
+@media (max-width: 480px) {
+    .card-box img{
+        width: 100%;
+        height: 50%;
+    }
     .bg-main{
         height: 120vh;
     }
